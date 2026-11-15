@@ -1,0 +1,469 @@
+{
+  "study": "declaration-reference-consistency",
+  "sources": [
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "LICENSE",
+      "path": "source/guides/LICENSE",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/LICENSE"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x01-Frontispiece.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x01-Frontispiece.md",
+      "sha256": "83a71b748374cbc70d0f323a6b0bb27e08e36caeffe1e5398d5101a1c2cc38c5",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x01-Frontispiece.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x02-Preface.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x02-Preface.md",
+      "sha256": "75c1f8baca5e8ca06b368a2ed29fd305ac68f3e3df691ffe19bb9dadad255f92",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x02-Preface.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x03-History.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x03-History.md",
+      "sha256": "719ce6344a27a1d34172764cdf83f60a0f13a60f698e1486e90f9061ef3426c9",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x03-History.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x04-Acknowledgements.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x04-Acknowledgements.md",
+      "sha256": "79e26e3fa1c5acee4f4a2fb2d3da3adb70b2f579057f8b983a424ea0bfac2f35",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x04-Acknowledgements.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x10-Introduction.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x10-Introduction.md",
+      "sha256": "1c64f7e38a792ec2298d1755bd678c0f4423c257da1009b3324c0153df3ffe8c",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x10-Introduction.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x15-Core-Concepts.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x15-Core-Concepts.md",
+      "sha256": "ea80f4f33505bbe2961bae66db098211b877a0621a4ac4295a1ef055ae042cd9",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x15-Core-Concepts.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x20-Design-Model-Component-Metadata.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x20-Design-Model-Component-Metadata.md",
+      "sha256": "0066c19422bcd04974707f11d1444dabdf1b3bbbf201c16581c221ae562255bc",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x20-Design-Model-Component-Metadata.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x21-Design-Model-Card-Overview.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x21-Design-Model-Card-Overview.md",
+      "sha256": "76ec3a33b4bf060d469212b0cc2c29290ce0b07d06a6239eb4258c2e24842a3a",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x21-Design-Model-Card-Overview.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x22-Design-Model-Card-Parameters.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x22-Design-Model-Card-Parameters.md",
+      "sha256": "b3e992db357df863e992cc2f354750bda56f58d23366763098a8e0198e78c35d",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x22-Design-Model-Card-Parameters.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x23-Design-Model-Card-Quantitative-Analysis.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x23-Design-Model-Card-Quantitative-Analysis.md",
+      "sha256": "4960e7c1e07ac24d8ab7878bcce043c3e3fb0acc78d8f0bd6d5457cd965a8dcb",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x23-Design-Model-Card-Quantitative-Analysis.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x24-Design-Model-Card-Considerations.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x24-Design-Model-Card-Considerations.md",
+      "sha256": "20c27789c3b52c4a511e61c96e59bc41a97537ec103ad61d12d6470b0776e2e0",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x24-Design-Model-Card-Considerations.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x40-Design-Additional-Model-Information.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x40-Design-Additional-Model-Information.md",
+      "sha256": "6bfb271f9d8ec6b71f72bff6b20496e8249905cb21a6e596c609e5271a8ce71b",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x40-Design-Additional-Model-Information.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x90-Appendix-A_Glossary.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x90-Appendix-A_Glossary.md",
+      "sha256": "78de9543bc74f9187f4c05ada3fab40c1e7cb26107e7925a6923140dd57d6ee8",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x90-Appendix-A_Glossary.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x91-Appendix-B_References.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x91-Appendix-B_References.md",
+      "sha256": "99d2ccbaf32c5daf76cf81fe6622b7ede9934d3049a75493c40230283adc2ec8",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x91-Appendix-B_References.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x92-Appendix-EU-AI-Act-mappings.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x92-Appendix-EU-AI-Act-mappings.md",
+      "sha256": "f0ec14acf28d87e8175b49ae754013865ad1d610ba3bb2059f314e0803f18954",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x92-Appendix-EU-AI-Act-mappings.md"
+    },
+    {
+      "repository": "CycloneDX/guides",
+      "commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+      "repository_path": "ML-BOM/2.0/en/0x93_Appendix-C_Complete_Example.md",
+      "path": "source/guides/ML-BOM/2.0/en/0x93_Appendix-C_Complete_Example.md",
+      "sha256": "d1007831c735c946fd4655853aa85882464fb5ebb5e6c7d9fb14d45b79869942",
+      "url": "https://github.com/CycloneDX/guides/blob/e0925d8940aa1a0a3fca442469d86265dd93e38c/ML-BOM/2.0/en/0x93_Appendix-C_Complete_Example.md"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "LICENSE",
+      "path": "source/specification/LICENSE",
+      "sha256": "6c29f22a4a7385285c6f579ec9f33c5e989f00739d6b257243a0b082ec9447ae",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/LICENSE"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/cyclonedx-2.0-bundled.schema.json",
+      "path": "source/specification/schema/2.0/cyclonedx-2.0-bundled.schema.json",
+      "sha256": "a55b61bb4731dd5826aeae891511a06e595213432892a386f7a8e277e6855e4d",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/cyclonedx-2.0-bundled.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/cyclonedx-2.0.schema.json",
+      "path": "source/specification/schema/2.0/cyclonedx-2.0.schema.json",
+      "sha256": "083e9cd98846c375ca12fa3f820b040621155f6c5b33cf85d3a44b71f8d2907e",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/cyclonedx-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/cyclonedx-api-2.0.schema.json",
+      "path": "source/specification/schema/2.0/cyclonedx-api-2.0.schema.json",
+      "sha256": "2c837d0637f05b51a8f270d265d67a0a0512dd048980ab88b4d411ab0e82daef",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/cyclonedx-api-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-ai-ml-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-ai-ml-2.0.schema.json",
+      "sha256": "8cd2b13d3b6f8da02b8bced7e69e5ad6e45695c0a4a3fda5c3800a6b7fed2781",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-ai-ml-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-annotation-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-annotation-2.0.schema.json",
+      "sha256": "ad0c0c97f40a8e0bde2fd16f1f324b63d20eb985b4bf228fbc08da9516bd5554",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-annotation-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-behavior-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-behavior-2.0.schema.json",
+      "sha256": "53be2bcc1352466500278edd63fab6874eb59fc3a5c574f93584186cb79ed1d2",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-behavior-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-blueprint-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-blueprint-2.0.schema.json",
+      "sha256": "680810c3670013514b7b759e5f1fab276bebe8e36755bbed144f910aa1cd4d90",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-blueprint-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-business-objective-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-business-objective-2.0.schema.json",
+      "sha256": "c3b0c1527245011ecb2f43760f2f0444fcd7f47ae4db4ecb7fe577a153384692",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-business-objective-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-certification-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-certification-2.0.schema.json",
+      "sha256": "298741e69ab606b88f22bb15880ebdd362fdd7d1ca8853c16dbaa815eee5f60e",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-certification-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-citation-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-citation-2.0.schema.json",
+      "sha256": "14674e969dd44b7b9c72b8339351b1f10322dd23e1ba07793d9774236690f66f",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-citation-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-common-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-common-2.0.schema.json",
+      "sha256": "4340e3629b44036064469a8842f3fc1eeffe71aa6520a7a3a62e8ca9e1310586",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-common-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-component-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-component-2.0.schema.json",
+      "sha256": "3a5fbae9bf9f1026e3d15570cadb782c8326ccc2b8aae9daee44bb5b17dc5138",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-component-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-composition-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-composition-2.0.schema.json",
+      "sha256": "baf17fc14159da5a4bac2235ed3b721e9c0da03d093dfb8d051bef13456e4705",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-composition-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-control-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-control-2.0.schema.json",
+      "sha256": "90660cdc826d82f53de86df0dc919d6e8183a8996f665738844559847f8bf4b4",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-control-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-cryptography-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-cryptography-2.0.schema.json",
+      "sha256": "8e788aaa08ca082780f19e6e865cf5f524aa5e1804f8c04c905613fdd0a9700b",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-cryptography-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-data-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-data-2.0.schema.json",
+      "sha256": "bb6716c33ab920b8bb48ce8d40c900cb261d369f241a8aa6a25f957652922cae",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-data-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-declaration-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-declaration-2.0.schema.json",
+      "sha256": "c3b2eb285f391e33649195b0c49bf0275649bc5b8766da7acaa9b02a3cc722d0",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-declaration-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-definition-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-definition-2.0.schema.json",
+      "sha256": "2d47a0561e1972d22e0157f1fc22a680e50da55b81b74b95c3f1b5b9f2a1861f",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-definition-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-dependency-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-dependency-2.0.schema.json",
+      "sha256": "d5a83647910fccc72f138b118559b74620232b714620889072025bcd6c80b397",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-dependency-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-evidence-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-evidence-2.0.schema.json",
+      "sha256": "282635ddd7c325d6572df0ba9823cb49a3ab8997e30cad403fa10ee32abd304f",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-evidence-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-formulation-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-formulation-2.0.schema.json",
+      "sha256": "9b7ccbd571abd516775ca01489f3204bd97fa2de35c823b977ff03bc5ba80dcb",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-formulation-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-jss_X590_2023_10-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-jss_X590_2023_10-2.0.schema.json",
+      "sha256": "eb58881fd6eb6e1fc9354d9bbacc57ce682aa9534cbdcf7a1cd4b463fe275b80",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-jss_X590_2023_10-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-license-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-license-2.0.schema.json",
+      "sha256": "6a901d13ff408a7a87b84bb47cca9c68dec78e10aa24a3c8b1ee5e197ad7900a",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-license-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-metadata-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-metadata-2.0.schema.json",
+      "sha256": "16d52d0a962c89c80082e2dcd795e0b8446e97fa9517ef946efd34b0254af9ea",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-metadata-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-party-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-party-2.0.schema.json",
+      "sha256": "40cb59fbb5789c95b5aed6874a5c1d3bb6e2a0244eaa052a4063f34ba63fa2bc",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-party-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-patent-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-patent-2.0.schema.json",
+      "sha256": "1e12d8cfab4ae1e5504ae83ca7d19f47bf66330a3e430f1e799867c142d4de74",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-patent-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-perspective-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-perspective-2.0.schema.json",
+      "sha256": "ca3dfe7d174dc5fa8cf54939869ba9b1e692d8e932bf68eeaf148d67a14db4bb",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-perspective-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-physical-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-physical-2.0.schema.json",
+      "sha256": "2a8083de7ece7c92712d60f2e097670e7f6f79301d3a3031aa170550afdc6654",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-physical-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-profile-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-profile-2.0.schema.json",
+      "sha256": "dbd301b2fd60e66623708611b06d875f34e3ea1e9c04d2d0440adfe853cb06fe",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-profile-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-release-notes-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-release-notes-2.0.schema.json",
+      "sha256": "c8979f6a8eb86681310e4592a35e2cda1e0cd50afdb20630a77895ecbc2fd297",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-release-notes-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-requirement-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-requirement-2.0.schema.json",
+      "sha256": "e7e4916cc3a716508430bb1fa9e3557438195ef16d948c289b1140dd958eaed5",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-requirement-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-risk-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-risk-2.0.schema.json",
+      "sha256": "a67873d6aa6d645bf241360b8382e9752d2b60b5eff8d2a7e5449e7fbf42e105",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-risk-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-standard-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-standard-2.0.schema.json",
+      "sha256": "27fbebcefb965dd123a24186162dcc14b09b483df12b06ae0b13d16049050de0",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-standard-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-threat-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-threat-2.0.schema.json",
+      "sha256": "8415ca26cf091e107d7cb09470689d8c5c28e09b035f21f6964de55a3e73d461",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-threat-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-usecase-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-usecase-2.0.schema.json",
+      "sha256": "5ec8a2f313cc963ca629b71b390099aa2d812ce0a096c83563951e6bb4ba8455",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-usecase-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-vulnerability-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-vulnerability-2.0.schema.json",
+      "sha256": "3cf9790b12d73b083c2e81d3745c210d95894788dca792748fa9c0af959a3e64",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-vulnerability-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/2.0/modules/cyclonedx-weakness-2.0.schema.json",
+      "path": "source/specification/schema/2.0/modules/cyclonedx-weakness-2.0.schema.json",
+      "sha256": "cb5d5ce049428505d9d52c85f512dc0da284508b23a176af69f9aaea56b2b3f6",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-weakness-2.0.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/behavior-taxonomy.schema.json",
+      "path": "source/specification/schema/behavior-taxonomy.schema.json",
+      "sha256": "d29fd07ab6612b958121fa2baf9b6c0744a1ceec8682d820e8f8372c11e7fd3e",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/behavior-taxonomy.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/cryptography-defs.schema.json",
+      "path": "source/specification/schema/cryptography-defs.schema.json",
+      "sha256": "6feb513095bf9e5861f5e8afb0eaeb8c06974bff420cbb6908735c44256e6d44",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/cryptography-defs.schema.json"
+    },
+    {
+      "repository": "CycloneDX/specification",
+      "commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+      "repository_path": "schema/spdx.schema.json",
+      "path": "source/specification/schema/spdx.schema.json",
+      "sha256": "bfe14d09b3fb62a8ced8bcfc357d32dad19042067e9862a02f48e95966df19ed",
+      "url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/spdx.schema.json"
+    }
+  ]
+}
