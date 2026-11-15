@@ -1,0 +1,175 @@
+{
+  "checked_at_utc": "2026-11-15T23:39:48.896302+00:00",
+  "guide_commit": "e0925d8940aa1a0a3fca442469d86265dd93e38c",
+  "specification_commit": "5a816a371871e75f4dd0d51f27e8af599a255e4e",
+  "fixture": {
+    "path": "efficientnet-lite0.json",
+    "sha256": "25242a407c1d1f6ae458f8033ad0fc66156bde3136aa6ba13a4200ac5535fb52"
+  },
+  "source_manifest": {
+    "path": "SOURCE_MANIFEST.json",
+    "sha256": "77822ccb885288cb9230acb64c49350993a0c102539f468dcc0f1d3db7ab1e0b"
+  },
+  "artifact_sha256": "bc2ffe19c1118de0c0c2a9088992da5589722656e0fba81421385300a4a34b16",
+  "input_basis": "published-artifact-observations",
+  "io_source": {
+    "url": "https://github.com/JunHwan-Kwon/tensor-quantization-metadata-study/blob/ac79fad51b622fc84281d668b6e68138e5e72e10/data/interface-contracts.json",
+    "sha256": "acaf33bb9a512c5a197157ce6311c45bea041e112b38e8e464449b15b6a39010"
+  },
+  "parameters": [
+    {
+      "source_pointer": "/parameters/81",
+      "bom_pointer": "/inventories/0/subject/modelProperties/inputs/0",
+      "direction": "input",
+      "tensor_index": 164,
+      "tensor_name": "images",
+      "dtype": "UINT8",
+      "shape": [
+        1,
+        224,
+        224,
+        3
+      ],
+      "scales": [
+        0.012566016986966133
+      ],
+      "zero_points": [
+        131
+      ],
+      "bom_field_matches": {
+        "name": true,
+        "dataType": true,
+        "shape": true,
+        "bits": true,
+        "scheme": true,
+        "granularity": true
+      },
+      "observed_value_checks": {
+        "single_scale": true,
+        "single_zero_point": true,
+        "positive_finite_scale": true,
+        "uint8_zero_point": true
+      }
+    },
+    {
+      "source_pointer": "/parameters/82",
+      "bom_pointer": "/inventories/0/subject/modelProperties/outputs/0",
+      "direction": "output",
+      "tensor_index": 165,
+      "tensor_name": "Softmax",
+      "dtype": "UINT8",
+      "shape": [
+        1,
+        1000
+      ],
+      "scales": [
+        0.00390625
+      ],
+      "zero_points": [
+        0
+      ],
+      "bom_field_matches": {
+        "name": true,
+        "dataType": true,
+        "shape": true,
+        "bits": true,
+        "scheme": true,
+        "granularity": true
+      },
+      "observed_value_checks": {
+        "single_scale": true,
+        "single_zero_point": true,
+        "positive_finite_scale": true,
+        "uint8_zero_point": true
+      }
+    }
+  ],
+  "numeric_value_location": {
+    "classification": "efficientnet-lite0.json",
+    "scale_and_zero_point": "results.json#/parameters"
+  },
+  "validation": [
+    {
+      "engine": "python-jsonschema",
+      "version": "4.26.0",
+      "referencing": "0.37.0",
+      "python": "3.13.13",
+      "configuration": {
+        "draft": "2020-12",
+        "format_checking": true
+      },
+      "checks": [
+        {
+          "profile": "modular",
+          "schema_id": "https://cyclonedx.org/schema/2.0/cyclonedx-2.0.schema.json",
+          "valid": true,
+          "errors": []
+        },
+        {
+          "profile": "bundled",
+          "schema_id": "https://cyclonedx.org/schema/2.0/cyclonedx-2.0-bundled.schema.json",
+          "valid": true,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "engine": "Ajv",
+      "version": "8.20.0",
+      "formats": "3.0.1",
+      "iriFormats": "1.6.1",
+      "node": "v24.12.0",
+      "configuration": {
+        "strict": false,
+        "allErrors": true,
+        "validateFormats": true
+      },
+      "checks": [
+        {
+          "profile": "modular",
+          "schema_id": "https://cyclonedx.org/schema/2.0/cyclonedx-2.0.schema.json",
+          "valid": true,
+          "errors": []
+        },
+        {
+          "profile": "bundled",
+          "schema_id": "https://cyclonedx.org/schema/2.0/cyclonedx-2.0-bundled.schema.json",
+          "valid": true,
+          "errors": []
+        }
+      ]
+    }
+  ],
+  "published_parser_crosscheck": {
+    "url": "https://github.com/JunHwan-Kwon/tensor-quantization-metadata-study/blob/ac79fad51b622fc84281d668b6e68138e5e72e10/data/litert-interface-crosscheck.json",
+    "sha256": "25e76878015dd085c5e16daf6cabafb17c38add4f7586db1041a05765ce3c530",
+    "source_pointer": "/verified/37",
+    "parser": "ai-edge-litert 2.1.4",
+    "method": "Interpreter.get_input_details/get_output_details only; no allocation or inference.",
+    "verified_parameter_count": 2,
+    "corpus_mismatch_count": 0,
+    "ledger_hash_matches": true
+  },
+  "vocabulary": {
+    "native_symmetric": {
+      "source_url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-ai-ml-2.0.schema.json",
+      "source_pointer": "/$defs/quantization/properties/scheme/oneOf/0/meta:enum/symmetric",
+      "zero_point": "fixed at zero"
+    },
+    "taxonomy_affine_symmetric": {
+      "source_url": "https://github.com/CycloneDX/cyclonedx-property-taxonomy/blob/f5f956dd7fd0c312f05520ce7aecc3746d099645/cdx/ai-ml.md#L184",
+      "zero_point": "depends on the declared integer representation",
+      "signed_int8_example_zero_point": 0,
+      "scale_required": true
+    },
+    "taxonomy_companion_scheme": {
+      "source_url": "https://github.com/CycloneDX/cyclonedx-property-taxonomy/blob/f5f956dd7fd0c312f05520ce7aecc3746d099645/cdx/ai-ml.md#L155",
+      "required_with_other_quantization_properties": true
+    },
+    "parameter_extension_point": {
+      "source_url": "https://github.com/CycloneDX/specification/blob/5a816a371871e75f4dd0d51f27e8af599a255e4e/schema/2.0/modules/cyclonedx-ai-ml-2.0.schema.json",
+      "source_pointer": "/$defs/modelParameter/properties/properties",
+      "sibling_of": "quantization"
+    }
+  }
+}

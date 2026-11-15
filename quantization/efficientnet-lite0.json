@@ -1,0 +1,55 @@
+{
+  "$schema": "https://cyclonedx.org/schema/2.0/cyclonedx-2.0.schema.json",
+  "specFormat": "CycloneDX",
+  "specVersion": "2.0",
+  "inventories": [
+    {
+      "subject": {
+        "type": "machine-learning-model",
+        "refId": "efficientnet-lite0-int8",
+        "name": "efficientnet-lite0-int8",
+        "hashes": [
+          {
+            "alg": "SHA-256",
+            "content": "bc2ffe19c1118de0c0c2a9088992da5589722656e0fba81421385300a4a34b16"
+          }
+        ],
+        "modelProperties": {
+          "inputs": [
+            {
+              "name": "images",
+              "dataType": "uint8",
+              "shape": [
+                1,
+                224,
+                224,
+                3
+              ],
+              "quantization": {
+                "bits": 8,
+                "scheme": "affine",
+                "granularity": "per-tensor"
+              }
+            }
+          ],
+          "outputs": [
+            {
+              "name": "Softmax",
+              "dataType": "uint8",
+              "shape": [
+                1,
+                1000
+              ],
+              "quantization": {
+                "bits": 8,
+                "scheme": "affine",
+                "granularity": "per-tensor"
+              }
+            }
+          ]
+        }
+      },
+      "components": []
+    }
+  ]
+}
